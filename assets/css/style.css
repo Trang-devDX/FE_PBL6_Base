@@ -34,6 +34,7 @@ html {
     border: 1px solid #f5f5f5;
     border-radius: 5px;
     background: #f5f5f5;
+    padding-left: 20px;
 }
 .header-top .inner-search {
     position: relative;
@@ -94,6 +95,7 @@ html {
     height: 564px;
     /* background: #211C24; */
     background: #211C24;
+    margin-bottom: 100px;
 }
 .body-main .section-one .container {
     display: flex;
@@ -126,4 +128,131 @@ html {
     margin-top: 20px;
 }
 /* End section-one */
+
+/* section-two */
+.body-main .section-two {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử xuống hàng */
+    justify-content: space-between;
+}
+
+.body-main .section-two .inner-left {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử xuống hàng */
+    justify-content: space-between; 
+    border-bottom: 1px solid #ddd;
+}
+.body-main .section-two .inner-left > div {
+    width: 50%;  
+}
+.img_chacuahue, .img_nlbx {
+    text-align: center; 
+}
+.img_chacuahue img, .img_nlbx img {
+    max-width: 100%; 
+    height: 300px; 
+}
+.section-two .info-chacuahue {
+    padding: 100px 15px;
+}
+.section-two .info-chacuahue h1 {
+    font-style: italic;
+    font-weight: 450;
+}
+.section-two .info-chacuahue p {
+    font-style: italic;
+    opacity: 0.7;
+}
+.section-two .info-nlbx {
+    padding: 75px 15px;
+}
+.section-two .info-nlbx h2 {
+    font-style: italic;
+    font-weight: 450;
+}
+.section-two .info-nlbx p {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+
+.body-main .section-two .inner-right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử xuống hàng */
+    justify-content: space-between; 
+}
+.body-main .section-two .inner-right > div {
+    width: 50%;
+}
+.section-two .inner-right .info-mexung {
+    padding-top: 275px;
+    padding-left: 20px;
+    background: #EDEDED;
+    height: 600px;
+}
+.section-two .info-mexung h1 {
+    font-style: italic;
+    font-weight: 450;
+}
+.section-two .info-mexung p {
+    font-style: italic;
+    opacity: 0.7;
+}
+.section-two .info-mexung button {
+    width: 225px;
+    height: 56px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+}
+.section-two .inner-right {
+    background: #EDEDED;
+}
+.section-two .inner-right .img_mexung {
+    text-align: center;
+    padding-top: 150px;
+}
+.img_mexung img {
+    max-width: 100%;
+    height: auto; 
+}
+/* End section-two */
+
+/* category */
+.category {
+    margin: 100px 0;
+    background: #FAFAFA;
+}
+.category .inner-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.category .inner-top i {
+    margin-right: 10px;
+}
+.category .inner-bot {
+    display: flex;
+    justify-content: space-between;
+}
+.category .category-item {
+    width: 160px;
+    height: 128px;
+    background: #EDEDED;
+    border-radius: 10px;
+}
+.category .category-item i {
+    margin-left: 62px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.category .category-item h6 {
+    margin-left: 62px;
+}
+/* End category */
 /* End Body main */
