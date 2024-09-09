@@ -34,7 +34,7 @@ html {
     border: 1px solid #f5f5f5;
     border-radius: 5px;
     background: #f5f5f5;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 .header-top .inner-search {
     position: relative;
@@ -189,7 +189,7 @@ html {
     width: 50%;
 }
 .section-two .inner-right .info-mexung {
-    padding-top: 275px;
+    padding-top: 240px;
     padding-left: 20px;
     background: #EDEDED;
     height: 600px;
@@ -214,7 +214,7 @@ html {
 }
 .section-two .inner-right .img_mexung {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .img_mexung img {
     max-width: 100%;
@@ -224,7 +224,9 @@ html {
 
 /* category */
 .category {
-    margin: 100px 0;
+    height: 400px;
+    padding-top: 100px;
+    margin-bottom: 75px;
     background: #FAFAFA;
 }
 .category .inner-top {
@@ -255,4 +257,72 @@ html {
     margin-left: 62px;
 }
 /* End category */
+
+/* list-product */
+.list-product .inner-top ul {
+    display: flex;
+    list-style-type: none;
+}
+.list-product .inner-top ul li {
+    margin-right: 30px;
+}
+.list-product .inner-top ul li a {
+    color: black;
+}
+.list-product .inner-top ul li a:hover {
+    text-decoration: none;
+}
+.underline {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+}
+
+.list-product .inner-list-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-product .inner-list-product .product-item {
+    position: relative;
+    width: 22.5%;
+    background: #F6F6F6;
+    height: 400px;
+    margin-bottom: 25px;
+}
+.list-product .inner-list-product .img_product_item {
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    margin: 35px 44px;
+}
+.list-product .inner-list-product img {
+    width: 100%;
+    height: auto;
+}
+.list-product .inner-list-product h6
+{
+    text-align: center;
+}
+.list-product .inner-list-product p {
+    text-align: center;
+}
+.list-product .inner-list-product button {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 37px;
+    padding: 10px;
+    color: white;
+    background: black;
+}
+.list-product .inner-list-product i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.list-product .inner-list-product .fill-heart {
+    color: red;
+}
+/* End list-product */
 /* End Body main */
